@@ -2,7 +2,7 @@ name: Sync fork with upstream
 
 on:
   schedule:
-    - cron: '0 0 */7 * *'
+    - cron: '0 0 */3 * *'
       timezone: "Asia/Shanghai"
   workflow_dispatch:
 
